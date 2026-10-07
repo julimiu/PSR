@@ -1,0 +1,19 @@
+{
+    "name": "jeiju/tallerpoophp",
+    "authors": [
+        {
+            "name": "Juliana",
+            "email": "jeiju0406@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Ejercicio1\\": "ejercicio1/model/",
+            "Ejercicio2\\": "ejercicio2/model/",
+            "Ejercicio3\\": "ejercicio3/model/",
+            "Ejercicio4\\": "ejercicio4/model/",
+            "Ejercicio5\\": "ejercicio5/model/"
+        }
+    }
+}

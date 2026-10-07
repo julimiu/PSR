@@ -1,8 +1,14 @@
 <?php
 
-require_once __DIR__ . '/../model/Banco.php';
-require_once __DIR__ . '/../model/Persona.php';
-require_once __DIR__ . '/../model/Empresa.php';
+use Ejercicio3\Banco;
+use Ejercicio3\Empresa;
+use Ejercicio3\Persona;
+
+
+require_once __DIR__ . '/../../vendor/autoload.php';
+require_once __DIR__ . '/../../vendor/autoload.php';
+require_once __DIR__ . '/../../vendor/autoload.php';
+require_once __DIR__ . '/../../vendor/autoload.php';
 
 class ControladorBanco {
     public function crearBanco(): Banco {

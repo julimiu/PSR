@@ -67,7 +67,7 @@ foreach ($cursos as $curso) {
 
 echo "<h1>Total de personas</h1>";
 
-echo "<p>" . Persona::getTotalPersonas() . "</p>";
+echo "<p>" . Ejercicio5\Persona::getTotalPersonas() . "</p>";
 
 
 echo "</body>";

@@ -1,5 +1,7 @@
 <?php
 
+namespace Ejercicio3;
+
 abstract class Cliente {
     private string $nombre;
 

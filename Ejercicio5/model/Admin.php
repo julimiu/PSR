@@ -1,5 +1,7 @@
 <?php
 
+namespace Ejercicio5;
+
 class Admin extends Persona {
     
     public function gestionarProceso(string $proceso): void {

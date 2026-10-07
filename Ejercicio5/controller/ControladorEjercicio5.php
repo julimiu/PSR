@@ -1,10 +1,22 @@
 <?php
 
-require_once __DIR__ . '/../model/Persona.php';
-require_once __DIR__ . '/../model/Estudiante.php';
-require_once __DIR__ . '/../model/Docente.php';
-require_once __DIR__ . '/../model/Admin.php';
-require_once __DIR__ . '/../model/Curso.php';
+use Ejercicio5\Persona;
+use Ejercicio5\Curso;
+use Ejercicio5\Admin;
+use Ejercicio5\Docente;
+use Ejercicio5\Estudiante;
+
+require_once __DIR__ . '/../../vendor/autoload.php';
+require_once __DIR__ . '/../../vendor/autoload.php';
+require_once __DIR__ . '/../../vendor/autoload.php';
+require_once __DIR__ . '/../../vendor/autoload.php';
+require_once __DIR__ . '/../../vendor/autoload.php';
+
+// require_once __DIR__ . '/../model/Persona.php';
+// require_once __DIR__ . '/../model/Estudiante.php';
+// require_once __DIR__ . '/../model/Docente.php';
+// require_once __DIR__ . '/../model/Admin.php';
+// require_once __DIR__ . '/../model/Curso.php';
 
 class ControladorAcademico {
     public function registrarPersonas(array $datos): array {

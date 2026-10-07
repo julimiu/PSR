@@ -1,5 +1,7 @@
 <?php
 
+namespace Ejercicio5;
+
 class Persona {
     protected string $nombre;
     protected string $documento;

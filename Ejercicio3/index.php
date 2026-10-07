@@ -1,9 +1,12 @@
 <?php
 
+use Ejercicio3\Empresa;
+use Ejercicio3\Persona;
+
 require_once __DIR__ . '/controller/ControladorEjercicio3.php';
 require_once __DIR__ . '/model/Persona.php';
 require_once __DIR__ . '/model/Empresa.php';
-require_once __DIR__ . '/view/VistaEjercicio3.php';
+// require_once __DIR__ . '/view/VistaEjercicio3.php';
 
 $controlador = new ControladorBanco();
 

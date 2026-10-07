@@ -1,5 +1,7 @@
 <?php
 
+namespace Ejercicio5;
+
 class Docente extends Persona {
     private array $cursos = [];
 

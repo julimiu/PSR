@@ -1,5 +1,7 @@
 <?php
 
+namespace Ejercicio2;
+
 class Bus {
     private String $placa;
     private int $capacidadPasajeros;

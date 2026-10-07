@@ -1,6 +1,8 @@
 <?php
 
-require_once __DIR__ . '/Cliente.php';
+namespace Ejercicio3;
+
+// require_once __DIR__ . '/Cliente.php';
 
 class Persona extends Cliente {
     private string $cedula;

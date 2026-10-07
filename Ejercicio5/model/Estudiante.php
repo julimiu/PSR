@@ -1,5 +1,7 @@
 <?php
 
+namespace Ejercicio5;
+
 class Estudiante extends Persona {
     private array $cursos = [];
     private array $notas = [];

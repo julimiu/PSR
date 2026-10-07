@@ -1,5 +1,7 @@
 <?php
 
+namespace Ejercicio5;
+
 class Curso {
     private string $codigo;
     private string $nombre;

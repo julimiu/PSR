@@ -1,6 +1,8 @@
 <?php
 
-require_once __DIR__ . '/Cliente.php';
+namespace Ejercicio3;
+
+// require_once __DIR__ . '/Cliente.php';
 
 class Empresa extends Cliente {
     private string $nit;

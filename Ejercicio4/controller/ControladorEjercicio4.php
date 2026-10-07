@@ -1,6 +1,8 @@
 <?php
 
-require_once __DIR__ . '/../model/Pelicula.php';
+use Ejercicio4\Pelicula;
+
+require_once __DIR__ . '/../../vendor/autoload.php';
 
 class ControladorPelicula {
      public function registrarPeliculas(array $datos): array {

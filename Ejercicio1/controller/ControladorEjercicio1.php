@@ -1,6 +1,10 @@
 <?php
 
-require_once __DIR__ . '/../model/Cita.php';
+use Ejercicio1\Cita;
+
+require_once __DIR__ . '/../../vendor/autoload.php';
+
+// require_once __DIR__ . '/../model/Cita.php';
 
 // require_once __DIR__ . '/../view/VistaEjercicioNumero1.php';
 

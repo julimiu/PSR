@@ -1,5 +1,7 @@
 <?php
 
+namespace Ejercicio4;
+
 class Pelicula {
     private string $titulo;
     private string $genero;

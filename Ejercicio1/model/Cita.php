@@ -1,5 +1,7 @@
 <?php
 
+namespace Ejercicio1;
+
 class Cita {
     private int $numero;
     private int $tipo;
